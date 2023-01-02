@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Daftar</title>
+</head>
+<body>
+    <div class="kontak">
+        <p>Ada yang ingin ditanyakan ?</p>
+        <p class="pp">Hubungi kontak berikut</p>
+        <div class="over">
+            <a href="https://wa.me/6281271192742" target="_blank"><img src="img/wa.png" width="60px"></a>
+        </div>
+    </div>
+    <nav>
+        <a href="index.html" class="side-img"><img src="img/rm.png" width="60px"></a>
+        <ul>
+            <li><a href="tentang.html">Tentang</a></li>
+            <li><a href="#daftar">Daftar</a></li>
+            <li><a href="pengajar.html">Instructor</a></li>
+        </ul>
+    </nav>
+    <div id="daftar">
+        <div class="home">
+            <div class="sales-boxes">
+                <h1>Pendaftaran Randing</h1>
+                <div class="content">
+                    <form action="index.html">
+                        <div class="user-details">
+                            <div class="input-box">
+                                <span class="details">Nama</span>
+                                <input type="text" name="nama" placeholder="Masukkan Nama" required>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Angkatan</span>
+                                <select class="select" name="angkatan" required>
+                                    <option>2020</option>
+                                    <option>2021</option>
+                                    <option>2022</option>
+                                </select>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Email</span>
+                                <input type="email" name="email" placeholder="Masukkan Email" required>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Nomor HP</span>
+                                <input type="text" pattern=”[0-9]” name="nomor" placeholder="Masukkan Nomor HP" required>
+                            </div>
+                        </div>
+                        <div class="user-details">
+                            <div class="input-box2">
+                                <span class="details">Alasan Mengkuti Randing</span>
+                                <textarea type="text" name="nama_wisata" placeholder="Masukkan Alasan Kamu" 
+                                            rows="0"
+                                            cols="0"required>
+                                </textarea>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Pemrograman yang dikuasai</span>
+                                <div class="topp">
+                                    <input class="checkbox" type="checkbox" id="python">
+                                    <label class="check" for="python">Python</label>
+                                </div>
+                                <div>
+                                    <input class="checkbox" type="checkbox" id="mysql">
+                                    <label class="check" for="mysql">MySQL</label>
+                                </div>
+                                <div>
+                                    <input class="checkbox" type="checkbox" id="java">
+                                    <label class="check" for="java">Java</label>
+                                </div>
+                                <div>
+                                    <input class="checkbox2" type="checkbox" id="web">
+                                    <label class="check" for="web">Web</label>
+                                </div>
+                            </div>
+                        </div>         
+                        <div class="input-box">
+                            <span class="details">Tambah Foto </span>
+                            <label class="button_img">
+                                  <input type="file" name="gambar" required />
+                                  <span class='label' data-js-label>Pilih Foto
+                            </label>
+                        </div>
+                        <div class="input-box">
+                            <input type="radio" name="paham" id="dot-1">
+                            <input type="radio" name="paham" id="dot-2">
+                            <br>
+                            <span class="details">Apakah kamu paham dengan penjelasan dosen ?</span>
+                            <div class="category">
+                                <label for="dot-1">
+                                    <span class="dot one"></span>
+                                    <span class="gender">Paham</span>
+                                </label>
+                                <label for="dot-2">
+                                    <span class="dot two"></span>
+                                    <span class="gender2">Tidak paham</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="button3">
+                            <label class="button2">
+                                <input type="submit" value="Batal">
+                            </label>
+                            <label>
+                                <input type="submit" value="Daftar">
+                            </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <footer>
+        <hr>
+        <div class="foot">
+            <p>2023 Copyright Randing</p>
+            <p>Support by Rooftop Max</p>
+        </div>
+    </footer>
+</body>
+<script src="js/file_input.js"></script>
+<script src="js/scroll-down.js"></script>
+</html>

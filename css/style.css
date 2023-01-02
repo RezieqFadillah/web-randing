@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgb(245, 245, 245);
+}
+.kontak{
+    position: fixed;
+    z-index: 100;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    right: 0;
+    bottom: 0;
+    margin: 10px;
+    font-weight: 500;
+}
+.kontak .pp{
+    padding-bottom: 10px;
+}
+.kontak a{
+    text-decoration: none;
+    border: none;
+    font-size: 19px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 100;
+}
+.over{
+    position: relative;
+}
+.over img{
+    cursor: pointer;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+}
+.over:hover .overlay{
+    opacity: 0.3;
+    transition: 0.4s;
+}
+nav {
+    max-width: 100%;
+    position: fixed;
+    font-size: 17px;
+    display: flex;
+    font-family: Tahoma;
+    background-color: rgb(218, 0, 0);
+    width: 100%;
+    z-index: 100;
+} 
+nav ul {
+    list-style: none;
+    position: relative;
+    display: inline-block;
+}
+nav ul li{
+    display: block;
+    float:left;
+    border-radius: 20px;
+    padding: 10px 5px 12px 5px;
+}
+.side-img{
+    max-width: 100%;
+    padding:8px 0px 0px 50px;
+}
+nav ul li a{
+    display: block;
+    padding:15px;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+nav ul li a:hover{
+    background:#9f00009a;
+    transition: 0.6s;
+}
+.rmbm{
+    top: 77px;
+    position: relative;
+}
+.daftar{
+    top: 33%;
+    left: 8%;
+    position: absolute;
+}
+.daftar .satu{
+    font-size: 38px;
+    font-weight: 501;
+}
+.daftar .dua{
+    font-size: 30px;
+}
+.button{
+    padding:4% 0px 0px 34%;
+    text-decoration: none;
+}
+.button a{
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    font-size: 22px;
+    color: #FFF;
+    padding: 10px 13px;
+    background-color: #1a58d4;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.button a:hover{
+    text-align: center;
+    background-color: rgb(177, 0, 222);
+    font-size: 28px;
+    transition: 0.4s;
+}
+#konten{
+    text-align: center;
+    padding: 120px 0px 120px 0px;
+    transition-duration: 1s;
+    transition-delay: 1s;
+}
+.judul{
+    font-weight: 500;
+    font-size: 32px;
+    text-align: center;
+}
+.kiri{
+    display: inline-block;
+    font-size: 30px;
+    padding-top: 30px;
+}
+.kiri img{
+    padding-left: 81px;
+}
+.kanan{
+    display: inline-block;
+    font-size: 30px;
+    text-align: right;
+    padding-right: 120px;
+    padding-top: 50px;
+}
+.kanan img{
+    padding-right: 81px;
+}
+.jarak{
+    padding-top: 9%;
+    text-align: center;
+    font-size: 23px;
+}
+.home{
+    padding: 140px 180px 0px 180px;
+}
+.sales-boxes {
+    background: white;
+    padding: 3% 4% 4% 4%;
+    border-radius: 12px;
+    box-shadow: 0 1px 13px rgba(0, 0, 0, 0.2);
+    margin-bottom: 7%;
+}
+.naik{
+    display: inline-block;
+}
+
+#nama, #email, #nomor{
+    display: block;
+}
+.naik input{
+    height: 45px;
+    width: 400px;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+.ikanan{
+    display: inline-block;
+}
+.pr{   
+    background-color: white;
+    padding: 20px 80px 20px 80px;
+    border-radius: 12px;
+    text-align: justify;
+    box-shadow: 0 1px 13px rgba(0, 0, 0, 0.2);
+    margin-bottom: 5.5%;
+}
+.pr h1{
+    padding: 25px 0px 15px 0px;
+}
+.list p{
+    padding-top: 10px;
+}
+footer{
+    background-color: rgb(225, 225, 225);
+}
+footer .foot{
+    padding: 25px 0px 25px 80px;
+}
